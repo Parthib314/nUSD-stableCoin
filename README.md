@@ -27,16 +27,19 @@ All the contracts are deployed on the Sepolia TestNet
 
 ## To compile 
 ```
+cd nUSD
 yarn hardhat compile
 ```
 
 ## To deploy the contracts
 ```
+cd nUSD
 yarn hardhat deploy --network sepolia
 ```
 ## For testing
 
 ```
+cd nUSD
 yarn hardhat test
 ```
 
